@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "outbox_profile_worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

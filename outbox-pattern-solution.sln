@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F02CB423-7D13-4D56-B0E6-0C31AB9ED8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "profile-service", "src\profile-service\profile-service.csproj", "{6FBA5046-54B2-4B04-9135-DE955DEFE34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outbox-profile-worker", "src\outbox-profile-worker\outbox-profile-worker.csproj", "{55F0F950-46B2-46FA-AD55-EB2397632EA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FBA5046-54B2-4B04-9135-DE955DEFE34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBA5046-54B2-4B04-9135-DE955DEFE34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBA5046-54B2-4B04-9135-DE955DEFE34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBA5046-54B2-4B04-9135-DE955DEFE34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F0F950-46B2-46FA-AD55-EB2397632EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F0F950-46B2-46FA-AD55-EB2397632EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F0F950-46B2-46FA-AD55-EB2397632EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F0F950-46B2-46FA-AD55-EB2397632EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FBA5046-54B2-4B04-9135-DE955DEFE34F} = {F02CB423-7D13-4D56-B0E6-0C31AB9ED8EF}
+		{55F0F950-46B2-46FA-AD55-EB2397632EA9} = {F02CB423-7D13-4D56-B0E6-0C31AB9ED8EF}
+	EndGlobalSection
+EndGlobal
