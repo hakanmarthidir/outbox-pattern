@@ -1,8 +1,11 @@
 ﻿using System;
+
 namespace profile_service.Core.Domain
 {
-    public class Profile
+
+    public class Profile : BaseEntity
     {
+
         public Guid Id { get; private set; }
         public string Name { get; private set; }
 
@@ -14,6 +17,7 @@ namespace profile_service.Core.Domain
         {
             this.Id = Guid.NewGuid();
             this.Name = name;
+            this.RaiseEvent(new ProfileCreated(this));
         }
 
         public static Profile CreateProfile(string name)
